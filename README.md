@@ -6,7 +6,7 @@ Screenshot
 ![Tenzies Game Screenshot](./dice.png)
 
 - Live Site URL: [live site](https://rllz0.github.io/tenzies-react/)
-  
+
 ## 🎮 How to Play
 
 1. **Start the Game**: Click any die to begin the timer
@@ -49,18 +49,21 @@ tenzies-game/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (version 14 or higher)
 - npm or yarn package manager
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/yourusername/tenzies-game.git
-   cd tenzies-game
+   git clone https://github.com/rlz0/tenzies-react.git
+   cd tenzies-react
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -68,6 +71,7 @@ tenzies-game/
    ```
 
 3. **Start the development server**
+
    ```bash
    npm start
    # or
@@ -91,12 +95,14 @@ tenzies-game/
 ## 🎯 Game Mechanics
 
 ### State Management
+
 - **Dice Array**: Each die has a value (1-6), held status, and unique ID
 - **Game Timer**: Tracks elapsed time in tenths of seconds
 - **Best Time**: Persists your fastest completion time
 - **Game Status**: Tracks if game has started and win condition
 
 ### Key Functions
+
 - `generateAllNewDice()`: Creates 10 new dice with random values
 - `rollDice()`: Rolls all unheld dice or starts new game
 - `hold(id)`: Toggles the held status of a specific die
@@ -113,6 +119,7 @@ tenzies-game/
 ## 📱 Responsive Design
 
 The game is fully responsive and includes:
+
 - Mobile-first design approach
 - Breakpoints for tablets and phones
 - Touch-friendly button sizes
@@ -128,6 +135,7 @@ The game is fully responsive and includes:
 ## 🎓 Learning Journey
 
 This project was built while learning React through **Scrimba's React course**. It demonstrates:
+
 - React hooks (useState, useEffect, useRef)
 - Component composition and props
 - Event handling and state management
